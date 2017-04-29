@@ -37,6 +37,8 @@ public class Main {
 				plastwon = false;
 			}
 			
+			laststate = playerstate;
+			
 			System.out.println("USR\tAI\n" + userscore + "\t" + machinescore);
 			
 		}
